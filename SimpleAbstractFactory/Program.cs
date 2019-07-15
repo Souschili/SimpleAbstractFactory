@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SimpleAbstractFactory.Classes;
+using SimpleAbstractFactory.Creator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +12,10 @@ namespace SimpleAbstractFactory
     {
         static void Main(string[] args)
         {
+            ConstructArea panzer1=new ConstructArea(new LightGermanPanzerFactory());
+            panzer1.About();
+            var panzer2 = new ConstructArea(new LightSovietPamzerFactory());
+            panzer2.About();
         }
     }
 }

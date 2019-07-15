@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstarctClasses\AbstractFactory.cs" />
+    <Compile Include="AbstarctClasses\AbstractPanzer.cs" />
+    <Compile Include="Classes\LightGermanPanzer.cs" />
+    <Compile Include="Classes\LightGermanPanzerFactory.cs" />
+    <Compile Include="Classes\LightSovietPamzerFactory.cs" />
+    <Compile Include="Classes\LigthSovietPanzer.cs" />
+    <Compile Include="Creator\ConstructArea.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
