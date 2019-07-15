@@ -14,7 +14,7 @@ namespace SimpleAbstractFactory
         {
             ConstructArea panzer1=new ConstructArea(new LightGermanPanzerFactory());
             panzer1.About();
-            var panzer2 = new ConstructArea(new LightSovietPamzerFactory());
+            var panzer2 = new ConstructArea(new LightSovietPanzerFactory());
             panzer2.About();
         }
     }

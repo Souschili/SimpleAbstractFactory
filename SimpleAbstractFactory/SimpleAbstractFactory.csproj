@@ -47,7 +47,7 @@
     <Compile Include="AbstarctClasses\AbstractPanzer.cs" />
     <Compile Include="Classes\LightGermanPanzer.cs" />
     <Compile Include="Classes\LightGermanPanzerFactory.cs" />
-    <Compile Include="Classes\LightSovietPamzerFactory.cs" />
+    <Compile Include="Classes\LightSovietPanzerFactory.cs" />
     <Compile Include="Classes\LigthSovietPanzer.cs" />
     <Compile Include="Creator\ConstructArea.cs" />
     <Compile Include="Program.cs" />

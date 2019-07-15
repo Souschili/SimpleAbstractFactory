@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SimpleAbstractFactory.Classes
 {
-    class LightSovietPamzerFactory : AbstractFactory
+    class LightSovietPanzerFactory : AbstractFactory
     {
         public override AbstractPanzer CreatePanzer()
         {
